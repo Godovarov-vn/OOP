@@ -1,3 +1,4 @@
+//ДТО -дата транспорт обжект
 using System;
 
 namespace DTONamespace
@@ -7,12 +8,12 @@ namespace DTONamespace
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public string Serialization()
+        public string Serialization() //конвертирует нашу ДТОшку в какой нибудь массив байт, чтобы отправить по сети
         {
             return $"{FirstName}:{LastName}";
         }
 
-        public bool Deserialization(string data)
+        public bool Deserialization(string data)    //принимает этот массив байт и восстанавливает по нему сообщение
         {
             string[] words = data.Split(':');
 
