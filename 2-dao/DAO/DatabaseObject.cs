@@ -25,12 +25,12 @@ namespace DAONamespace
             Value = value;
         }
 
-        public override string ToString()
+        public override string ToString() //метод, кот. конвертирует этот объект в строку
         {
             return $"{FirstName}:{LastName}:{Value}";
         }
 
-        public bool Read( string str )
+        public bool Read( string str ) //метод, кот. считает данные сос строки
         {
             string[] words = str.Split(':');
 
@@ -42,7 +42,7 @@ namespace DAONamespace
             return true;
         }
 
-        public bool Equal(DatabaseObject obj)
+        public bool Equal(DatabaseObject obj) //сравнение
         {
             return FirstName == obj.FirstName &&
                 LastName == obj.LastName &&
