@@ -1,3 +1,5 @@
+/*ЗАДАНИЕ: Создать магазин с товарами и методами по созданию, удалению, покупке товаров для продавцов и покупателей */
+
 using System;
 using ProductNamespace;
 using OwnerNamespace;
@@ -18,7 +20,7 @@ class Program
         Console.Write("\n\n");
     }
 
-    static void Main()
+    static void Main() //просто заполняю сайт данными
     {
         Car car1 = new Car("car 1", 1001) {CompanyName = "company 1", ModelName = "model 1", MaxSpeed = 100, NumberOfSeats = 1, };
         Car car2 = new Car("car 2", 2001) {CompanyName = "company 2", ModelName = "model 2", MaxSpeed = 200, NumberOfSeats = 2, };
@@ -48,7 +50,7 @@ class Program
         owner3.AddProduct(book3);
         owner3.AddProduct(slave3);
 
-        PrintAllInformation(owner1);
+        PrintAllInformation(owner1);//см.выше
         PrintAllInformation(owner2);
         PrintAllInformation(owner3);
     }
