@@ -4,7 +4,7 @@ using DAONamespace;
 
 class Program
 {
-    const string PATH = "file.txt";
+    const string PATH = "file.txt"; //текстовый файл для данных
     static void Main()
     {
         var dao = new DAO(PATH);
@@ -12,7 +12,7 @@ class Program
 
 
         string mode = Console.ReadLine();
-
+                    //ну и тут уже исспользую всё, что реализовывал в дао
         if(mode == "read")
         {
             for(int i=0; i < size; i++)
