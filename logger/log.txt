@@ -1,0 +1,12 @@
+18.11.2021 20:41:41	[INFO]	message #1
+18.11.2021 20:41:41	[WARNING]	message #2
+18.11.2021 20:41:41	[ERROR]	message #3
+18.11.2021 20:41:41	[FATAL]	message #4
+19.11.2021 17:52:15	[INFO]	message #1
+19.11.2021 17:52:15	[WARNING]	message #2
+19.11.2021 17:52:15	[ERROR]	message #3
+19.11.2021 17:52:15	[FATAL]	message #4
+09.12.2021 14:28:15	[INFO]	message #1
+09.12.2021 14:28:15	[WARNING]	message #2
+09.12.2021 14:28:15	[ERROR]	message #3
+09.12.2021 14:28:15	[FATAL]	message #4
