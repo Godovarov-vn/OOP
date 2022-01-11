@@ -1,3 +1,5 @@
+/*Фабрика - некоторый класс, который занимается созданием наших объектов */
+
 using System;
 using LoggerNamespace;
 
@@ -5,9 +7,9 @@ namespace FactoryNamespace
 {
     static class LoggerFactory
     {
-        public static ILogger Create(LoggerTypes type)
+        public static ILogger Create(LoggerTypes type) 
         {
-            switch(type)
+            switch (type)                
             {
                 case LoggerTypes.CONSOLE:
                     return new LoggerConsole();
