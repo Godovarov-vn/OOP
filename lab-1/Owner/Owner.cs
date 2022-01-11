@@ -14,7 +14,7 @@ namespace OwnerNamespace
 
         public int NumberOfProducts { get; private set; }
 
-        private List<Product> list = new List<Product>();
+        private List<Product> list = new List<Product>(); //в качестве одного из полей продавец имеет список товаров, которыми он владеет
 
         public Owner(string name)
         {
