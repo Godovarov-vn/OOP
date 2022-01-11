@@ -1,3 +1,4 @@
+/* Создает айдишники для продавцов и товаров (по красоте)*/
 using System;
 
 namespace IdGeneratorNamespace
