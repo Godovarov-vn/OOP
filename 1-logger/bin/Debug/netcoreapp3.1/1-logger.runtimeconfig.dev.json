@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\bogov\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\bogov\\.nuget\\packages"
-    ]
-  }
-}
