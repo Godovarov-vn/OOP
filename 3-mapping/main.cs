@@ -17,7 +17,7 @@ class Program
 
     static void Main()
     {
-        var buffer = new List<string>();
+        var buffer = new List<string>(); //симулирует разделяемую память
 
         DTO dto = new DTO();
         var dao = new DAO( PATH );
@@ -25,6 +25,7 @@ class Program
 
         int size = dao.Length();
 
+        //имитация сервера
         Console.WriteLine("--------SERVER--------");
 
         for(int i =0; i < size; i++)
