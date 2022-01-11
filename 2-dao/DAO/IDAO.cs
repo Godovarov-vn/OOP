@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DAONamespace
 {
-    abstract class IDAO
+    abstract class IDAO //ставлю абстрактный класс, т.к. нужно было скрыть некоторые методы (protected)
     {
 
         protected abstract List<DatabaseObject> GetAllObjects();
