@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace DAONamespace
 { 
-    class DAO : IDAO
+    class DAO : IDAO  //реализую этот абстр.класс
     {
         static private string _path;
 
